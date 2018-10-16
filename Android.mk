@@ -23,7 +23,7 @@ art_path := $(LOCAL_PATH)
 #
 
 include $(art_path)/build/Android.common_path.mk
-include $(art_path)/build/Android.oat.mk
+#include $(art_path)/build/Android.oat.mk
 
 # Following the example of build's dont_bother for clean targets.
 art_dont_bother := false
